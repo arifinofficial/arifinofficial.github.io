@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico">
+    <title>🔥 Arifin N - Portfolio</title>
 </head>
 <body>
-    helo
+    <div id="particles-js"></div>
+    <div class="wrapper-portfolio">
+        <main>
+            <div class="container">
+                <p class="text-center title-portfolio">Portfolio</p>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img src="assets/images/portfolio/portfolio1.jpeg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Abbasi Textile - Website E-commerce</h5>
+                                    <p>Website e-commerce dari Abbasi Textile yang menjual produk kain. Dibangun manual, yang memiliki tampilan frontend dan disisi backend memiliki dashboard admin untuk mengelola penjualan dari website.</p>
+                                    <p>Stack: <span class="html">#html</span> <span class="css">#css</span> <span class="js">#javascript</span> <span class="php">#php</span> <span class="mysql">#mysql</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img src="assets/images/portfolio/portfolio2.jpeg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">MICE - Dinas Pariwisata Provinsi Bali</h5>
+                                    <p>Sistem aplikasi MICE (Meeting, Incentive, Convention and Exhibition) dibuat untuk Dinias Pariwisata Provinsi Bali yang memiliki fitur input data, cari data, cetak data, dan lain-lain.</p>
+                                    <p>Stack: <span class="html">#html</span> <span class="css">#css</span> <span class="js">#javascript</span> <span class="php">#php</span> <span class="laravel">#laravel</span> <span class="mysql">#mysql</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img src="assets/images/portfolio/portfolio3.jpeg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Pestermite - Website Company Profile</h5>
+                                    <p>Website company profile dari Perusahaan Perstermite yang terletak di Bali, bergerak dibidang Pest &amp; Termite Control.</p>
+                                    <p>Stack: <span class="wordpress">#wordpress</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img src="assets/images/portfolio/portfolio4.jpeg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Pest Solution - Website Company Profile</h5>
+                                    <p>Website company profile dari Perusahaan Pest Solution yang terletak di Bali, bergerak dibidang Pest &amp; Termite Control.</p>
+                                    <p>Stack: <span class="html">#html</span> <span class="css">#css</span> <span class="js">#javascript</span> <span class="php">#php</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img src="assets/images/portfolio/portfolio5.jpeg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Qejar - CMS</h5>
+                                    <p>Website CMS (content management system) dari perusahaan Qejar yang bergerak dibidang Digital Agency.</p>
+                                    <p>Stack: <span class="html">#html</span> <span class="css">#css</span> <span class="js">#javascript</span> <span class="php">#php</span> <span class="laravel">#laravel</span> <span class="mysql">#mysql</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                    <div class="col-md-6">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img src="assets/images/portfolio/portfolio6.jpeg" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Taman Harmoni Bali - CMS</h5>
+                                    <p>Website CMS (content management system) dari Taman Harmoni Bali yang menyediakan tempat berkreasi di Kabupaten Karangasem, Bali.</p>
+                                    <p>Stack: <span class="html">#html</span> <span class="css">#css</span> <span class="js">#javascript</span> <span class="php">#php</span> <span class="laravel">#laravel</span> <span class="mysql">#mysql</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <span class="d-block text-center">👨🏻‍💻 by Arifin N - 📌 Denpasar, Bali</span>         
+        </footer>
+    </div>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <script>
+        particlesJS.load("particles-js", 'assets/particlesjs-config.json');
+        $(document).ready(function(){
+            $('.flip').bind('click', function(){
+                $(this).toggleClass('hover');
+            });
+        });
+    </script>
 </body>
 </html>

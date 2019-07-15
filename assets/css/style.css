@@ -34,7 +34,7 @@ canvas {
     justify-content: center;
 }
 
-main img{
+main figure img{
     border-radius: 50%;
     max-width: 200px;
 }
@@ -168,4 +168,103 @@ main img{
 hr{
     border-color: #f9f2e8;
     width: 90%;
+}
+
+.card{
+    background-color: #455A64;
+}
+
+.card-wrapper{
+    padding-bottom: 50px;
+}
+
+.title-portfolio{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+main hr{
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.php{
+    color: #f75252;
+}
+
+.mysql{
+    color: #f969f1;
+}
+
+.js{
+    color: #f7cd24;
+}
+
+.css{
+    color: #94E482;
+}
+
+.html{
+    color: #4DA6FF;
+}
+
+.laravel{
+    color: #53c8ad;
+}
+
+.wordpress{
+    color: #009FD4;
+}
+
+.card{
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+@media screen and (max-width: 767px){
+    .wrapper{
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .social{
+        padding-bottom: 30px;
+    }
+
+    .typing{
+        width: 336px;
+    }
+}
+
+@media screen and (max-width: 455px){
+    .flip-inner{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .flip-inner{
+        height: 350px;
+    }
+
+    .about{
+        line-height: 350px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .flip-back{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .typing{
+        font-size: 10px;
+        width: 100%;
+    }
 }
